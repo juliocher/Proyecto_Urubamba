@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Huilloa Verde – Productos naturales, flores y hierbas medicinales de la comunidad de Huilloa. Apoyamos a más de 80 familias con el poder de la naturaleza.">
+  <title>Huilloa Verde | Naturaleza que Sana</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231b3322' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-13.9.2'></path><path d='M9 22v-4h4'></path></svg>">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-13.9.2"></path><path d="M9 22v-4h4"></path></svg></div>
+        <div>
+          <span class="logo-text">Huilloa Verde</span>
+          <span class="logo-sub">Naturaleza · Comunidad · Sostenibilidad</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="hierbas.html">Hierbas Medicinales</a></li>
+        <li><a href="flores.html">Flores</a></li>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="btn btn-primary nav-cta">Contactar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMobile()">Inicio</a>
+    <a href="hierbas.html" onclick="closeMobile()">Hierbas Medicinales</a>
+    <a href="flores.html" onclick="closeMobile()">Flores</a>
+    <a href="nosotros.html" onclick="closeMobile()">Sobre Nosotros</a>
+    <a href="contacto.html" onclick="closeMobile()">Contactar</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><svg class="icon-svg" viewBox="0 0 24 24" style="width:16px;height:16px;margin-right:6px;"><path d="M7 20h10"></path><path d="M10 20c5.5-2.5 7-7.5 7-14"></path><path d="M13 20c-5.5-2.5-7-7.5-7-14"></path><path d="M6 6c3 0 5 1.5 6 4"></path><path d="M18 6c-3 0-5 1.5-6 4"></path></svg> Comunidad de Huilloa, Cusco</div>
+      <h1 class="hero-title">
+        La naturaleza<br>que <em>sana</em> y une<br>a nuestro pueblo
+      </h1>
+      <p class="hero-desc">
+        Flores frescas e hierbas medicinales cultivadas artesanalmente por más de 80 familias de Huilloa. Cada brote lleva consigo el origen andino, la sanación natural y la esperanza de nuestra tierra.
+      </p>
+      <div class="hero-actions">
+        <a href="hierbas.html" class="btn btn-primary"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-13.9.2"></path><path d="M9 22v-4h4"></path></svg> Catálogo de Hierbas</a>
+        <a href="flores.html" class="btn btn-outline" style="color:white;border-color:white;"><svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M20 12h2"></path><path d="M2 12h2"></path><path d="m5.8 5.8 1.4 1.4"></path><path d="m16.8 16.8 1.4 1.4"></path><path d="m18.2 5.8-1.4 1.4"></path><path d="m7.2 16.8-1.4 1.4"></path></svg> Galería de Flores</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Desliza para descubrir</div>
+  </section>
+
+  <!-- ===== FEATURE CARDS ===== -->
+  <section class="features">
+    <div class="container">
+      <div class="text-center fade-up">
+        <span class="section-label">¿Qué ofrecemos?</span>
+        <h2 class="section-title">Productos directos de la naturaleza</h2>
+        <p class="section-subtitle">Todo cultivado de forma artesanal y sostenible en las tierras de Huilloa, con el cuidado y el conocimiento ancestral de nuestra comunidad.</p>
+      </div>
+      <div class="features-grid">
+        <a href="hierbas.html" class="feature-card fade-up delay-1">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-13.9.2"></path><path d="M9 22v-4h4"></path></svg></div>
+          <h3>Hierbas Medicinales</h3>
+          <p>Manzanilla, muña, hierba buena, cedrón y muchas más. Cada hierba cultivada con método artesanal y seleccionada por sus propiedades curativas.</p>
+          <span class="feature-link">Ver catálogo <span style="margin-left:4px;">→</span></span>
+        </a>
+        <a href="flores.html" class="feature-card fade-up delay-2">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M20 12h2"></path><path d="M2 12h2"></path><path d="m5.8 5.8 1.4 1.4"></path><path d="m16.8 16.8 1.4 1.4"></path><path d="m18.2 5.8-1.4 1.4"></path><path d="m7.2 16.8-1.4 1.4"></path></svg></div>
+          <h3>Flores Frescas</h3>
+          <p>Rosas, claveles, girasoles y flores silvestres de los Andes. Hermosas, frescas y llenas de vida, perfectas para cualquier ocasión.</p>
+          <span class="feature-link">Ver galería <span style="margin-left:4px;">→</span></span>
+        </a>
+        <a href="nosotros.html" class="feature-card fade-up delay-3">
+          <div class="feature-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h3>Impacto Comunitario</h3>
+          <p>Cada compra apoya directamente a más de 80 familias de Huilloa y pueblos cercanos, generando bienestar y desarrollo sostenible.</p>
+          <span class="feature-link">Nuestra historia <span style="margin-left:4px;">→</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STORY SECTION ===== -->
+  <section class="story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image fade-left">
+          <img src="img/owner_story_1779221100214.png" alt="Fundadora de Huilloa Verde en su jardín de hierbas y flores" loading="lazy">
+          <div class="story-badge">
+            <span class="number">80+</span>
+            <span class="label">familias apoyadas</span>
+          </div>
+        </div>
+        <div class="story-text fade-right">
+          <span class="section-label">Nuestra historia</span>
+          <h2 class="section-title">Una semilla plantada desde el corazón</h2>
+          <blockquote>
+            "Las flores me devolvieron la vida. Hoy quiero que también transformen la tuya."
+          </blockquote>
+          <p>
+            Detrás de Huilloa Verde hay una mujer valiente que, tras atravesar momentos difíciles de salud, encontró en la naturaleza su mayor medicina. Rodeada de las hierbas y flores de estas tierras andinas, descubrió el poder de lo artesanal, de lo puro, de lo que la tierra ofrece con generosidad.
+          </p>
+          <p>
+            Hoy, ese conocimiento se convierte en un puente que une a productores locales con familias que buscan bienestar natural. Un emprendimiento que nació del dolor y florece como esperanza para toda la comunidad de Huilloa.
+          </p>
+          <a href="nosotros.html" class="btn btn-primary" style="margin-top:12px;">Leer historia completa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-up">
+          <span class="stat-number" data-target="80">0</span>+
+          <span class="stat-label">Familias apoyadas</span>
+        </div>
+        <div class="stat-item fade-up delay-1">
+          <span class="stat-number" data-target="25">0</span>+
+          <span class="stat-label">Especies de hierbas</span>
+        </div>
+        <div class="stat-item fade-up delay-2">
+          <span class="stat-number" data-target="15">0</span>+
+          <span class="stat-label">Tipos de flores</span>
+        </div>
+        <div class="stat-item fade-up delay-3">
+          <span class="stat-number" data-target="5">0</span>+
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS PREVIEW ===== -->
+  <section class="products-preview">
+    <div class="container">
+      <div class="text-center fade-up">
+        <span class="section-label">Destacados</span>
+        <h2 class="section-title">Lo mejor de nuestra tierra</h2>
+        <p class="section-subtitle">Una pequeña muestra de los tesoros naturales que cultivamos con amor en Huilloa.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card fade-up delay-1">
+          <div class="product-img">
+            <img src="img/herb_chamomile_1779221121554.png" alt="Manzanilla medicinal de Huilloa" loading="lazy">
+            <span class="product-tag">Hierba medicinal</span>
+          </div>
+          <div class="product-info">
+            <h3>Manzanilla (Manzanilla)</h3>
+            <p>Conocida por sus propiedades calmantes y digestivas. Perfecta para tés e infusiones relajantes.</p>
+            <a href="hierbas.html" class="feature-link" style="margin-top:12px;display:inline-flex;">Ver más →</a>
+          </div>
+        </div>
+        <div class="product-card fade-up delay-2">
+          <div class="product-img">
+            <img src="img/flowers_gallery_1779220928989.png" alt="Flores frescas de Huilloa" loading="lazy">
+            <span class="product-tag">Flores frescas</span>
+          </div>
+          <div class="product-info">
+            <h3>Rosas & Flores Andinas</h3>
+            <p>Arreglos florales únicos con la vitalidad de las flores cultivadas en la sierra peruana.</p>
+            <a href="flores.html" class="feature-link" style="margin-top:12px;display:inline-flex;">Ver más →</a>
+          </div>
+        </div>
+        <div class="product-card fade-up delay-3">
+          <div class="product-img">
+            <img src="img/medicinal_herbs_1779220576375.png" alt="Hierbas medicinales variadas" loading="lazy">
+            <span class="product-tag">Pack herbal</span>
+          </div>
+          <div class="product-info">
+            <h3>Colección de Hierbas</h3>
+            <p>Selección artesanal de las hierbas más beneficiosas: muña, cedrón, hierba buena y más.</p>
+            <a href="hierbas.html" class="feature-link" style="margin-top:12px;display:inline-flex;">Ver más →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMUNITY SECTION ===== -->
+  <section class="story" style="background: var(--cream);">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-text fade-left">
+          <span class="section-label">Nuestra comunidad</span>
+          <h2 class="section-title">Más de 80 familias<br>con un mismo sueño</h2>
+          <p>Huilloa Verde no es solo un negocio, es un movimiento comunitario. Agricultores, recolectoras, artesanas y emprendedoras de Huilloa y pueblos cercanos trabajan juntos para llevar lo mejor de sus tierras a quienes buscan una vida más natural y saludable.</p>
+          <p>Cada compra que realizas contribuye directamente al sustento de estas familias, preserva las tradiciones ancestrales de cultivo y promueve un modelo de desarrollo sostenible en la sierra peruana.</p>
+          <div style="display:flex;gap:16px;margin-top:24px;flex-wrap:wrap;">
+            <a href="nosotros.html" class="btn btn-primary">Conocer el proyecto</a>
+            <a href="contacto.html" class="btn btn-outline">Contactarnos</a>
+          </div>
+        </div>
+        <div class="story-image fade-right">
+          <img src="img/community_women_1779220977228.png" alt="Mujeres de la comunidad de Huilloa" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-icon"><svg class="icon-svg" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-13.9.2"></path><path d="M9 22v-4h4"></path></svg></div>
+            <div>
+              <span class="logo-text">Huilloa Verde</span>
+              <span class="logo-sub">Naturaleza · Comunidad · Sostenibilidad</span>
+            </div>
+          </div>
+          <p>Emprendimiento sostenible de la comunidad de Huilloa. Flores y hierbas medicinales de origen andino cultivadas de manera responsable y natural.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="hierbas.html">Hierbas Medicinales</a></li>
+            <li><a href="flores.html">Flores</a></li>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Variedades</h4>
+          <ul>
+            <li><a href="hierbas.html">Muña de la Sierra</a></li>
+            <li><a href="hierbas.html">Muña Blanca</a></li>
+            <li><a href="hierbas.html">Muña Negra</a></li>
+            <li><a href="hierbas.html">Manzanilla Real</a></li>
+            <li><a href="flores.html">Flores Andinas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ubicación</h4>
+          <ul style="gap: 16px;">
+            <li style="display: flex; align-items: center; gap: 8px;"><svg class="icon-svg" viewBox="0 0 24 24" style="width:16px;height:16px;color:var(--gold);"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg> <a href="#">Huilloa, Cusco, Perú</a></li>
+            <li style="display: flex; align-items: center; gap: 8px;"><svg class="icon-svg" viewBox="0 0 24 24" style="width:16px;height:16px;color:var(--gold);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> <a href="tel:+51900000000">+51 900 000 000</a></li>
+            <li style="display: flex; align-items: center; gap: 8px;"><svg class="icon-svg" viewBox="0 0 24 24" style="width:16px;height:16px;color:var(--gold);"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> <a href="mailto:contacto@huilloaverde.pe">contacto@huilloaverde.pe</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Huilloa Verde. Todos los derechos reservados. Cultivado con orgullo andino.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg class="icon-svg" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="WhatsApp">
+            <svg class="icon-svg" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
